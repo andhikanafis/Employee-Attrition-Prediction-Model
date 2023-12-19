@@ -1,28 +1,45 @@
 
-# Andhika Nafis Notebook:Employee Attrition Model Prediction
+# Andhika Nafis Notebook: Employee Attrition Model Prediction    
 
-## Table of Contents
-1. [Problem Statement](#problem-statement)
-2. [Objective](#objective)
-3. [Methods Used](#methods-used)
-4. [How to Use](#how-to-use)
-    
+
+## Data
+The data used is the IBM HR Analytics Attrition dataset. This dataset includes various employee attributes such as age, education, position, etc.
+
 
 ## Problem Statement
 
-This project aims to design a prediction model using the IBM HR Analytics Attrition dataset to recognize the factors affecting the employee attrition rate. A high attrition rate can negatively impact company productivity, recruitment costs, and the company's ability to retain employees.
-    
+High attrition rates can negatively impact a company's productivity, recruitment costs, and ability to retain talent. Therefore, it is crucial to identify the factors influencing this attrition.
 
+    
 ## Objective
 
 The objectives of this model are:
 - Identifying the main factors contributing to the employee attrition rate.
 - Analyzing patterns and trends in the data to understand the behavior of employees likely to leave the company.
 - Developing a predictive model that can predict the likelihood of future employee attrition based on the attributes in the dataset.
-    
+
+
+## Technology Stack
+- Python
+- Libraries: Pandas, Numpy, Seaborn, Matplotlib, Scikit-Learn, Imbalanced-Learn
+- Jupyter Notebook
+
 
 ## Methods Used
-Various data preprocessing and modeling techniques were used in this notebook. The methods include data cleaning, exploratory data analysis, feature engineering, and the application of machine learning models to predict employee attrition. Specific algorithms and libraries used will be detailed in the actual notebook.
+The methods used include:
+- Exploratory data analysis
+- Data preprocessing, including encoding and scaling
+- Development of classification models using algorithms like Decision Tree, Random Forest, KNN, and SVM
+- Model evaluation using metrics like F1 score, accuracy, precision, and recall
+
+
+## Project Output
+The output of this project is a predictive model that can be used to predict the likelihood of employee attrition based on the attributes present in the dataset.
+
+
+## Supporting Links for Deployment
+Deployment: https://huggingface.co/spaces/andhikanafis/P1M2_Andhika_Nafis
+
 
 ## How to Use
 1. Clone the repository containing this notebook.
